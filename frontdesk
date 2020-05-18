@@ -1,0 +1,7 @@
+echo  my name is receptionist >> frontdesk.txt
+useradd lady; echo "password" |passwd --stdin lady
+mv lady female
+mv female ladybird
+usermod -aG media ladybird
+groupadd media
+echo mayor is kind hearted >> protocol.py
